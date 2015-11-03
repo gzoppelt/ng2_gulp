@@ -1,0 +1,32 @@
+{
+  "name": "ng2_gulp",
+  "version": "1.0.0",
+  "description": "ng2 with typescript",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gzoppelt/ng2_gulp.git"
+  },
+  "keywords": [
+    "ng2",
+    "gulp",
+    "typescipt"
+  ],
+  "author": "Guenther Zoppelt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gzoppelt/ng2_gulp/issues"
+  },
+  "homepage": "https://github.com/gzoppelt/ng2_gulp",
+  "devDependencies": {
+    "browser-sync": "^2.9.11",
+    "gulp": "^3.9.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-tslint": "^3.5.0",
+    "gulp-typescript": "^2.9.2",
+    "superstatic": "^3.0.0"
+  }
+}
