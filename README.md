@@ -7,7 +7,8 @@ gulpfile for ng2 and typescript
 
 * [tslint.json](https://github.com/palantir/tslint/blob/master/docs/sample.tslint.json)
 
-* tsconfig.js
+* tsconfig.json
+        <pre><code>
         {
             "compilerOptions": {
                 "target": "es5",
@@ -30,6 +31,7 @@ gulpfile for ng2 and typescript
                 "node_modules"
             ]
         }
+        </code></pre>
 
 * gulp.config.js
         module.exports = function () {
