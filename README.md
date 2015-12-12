@@ -34,14 +34,15 @@ gulpfile for ng2 and typescript
         </code></pre>
 
 * gulp.config.js
-        module.exports = function () {
-            var config = {
-                all_ts = './app/**/*.ts',
-                typings: './typings/**/*.d.ts',
-                tsOutputPath: '/app/'    
-            };
-            return config;
-        }
-       
+<pre><code>
+module.exports = function () {
+    var config = {
+        all_ts = './app/**/*.ts',
+        typings: './typings/**/*.d.ts',
+        tsOutputPath: '/app/'    
+    };
+    return config;
+}
+</code></pre>
 
 * gulpfile.js
